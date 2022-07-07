@@ -1,8 +1,86 @@
-.title-black{
-    color: black;
-
+body, html {
+ background-color: #acacac;
 }
+
+
 
 .nomad{
     color: violet;
 }
+
+.landing{
+    background: url(sandy.JPG);
+    width: 100vw;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    margin-top:-50px;
+    background-color:red;
+     display: flex; 
+    justify-content: center;
+    align-items:center
+}
+
+.navbar  {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 5px;
+    background-color:transparent;
+
+}
+
+.neo{
+    float: left;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'inika';
+
+
+}
+.hipi{
+    float: right;
+    font-size:larger ;
+    font-weight: 200;
+    width: 400px;
+
+
+}
+.mad{
+    color:white;
+    font-size: 32px;
+    font-weight: x-large;
+    font-family: inika;
+    margin-bottom: 40px;
+    margin-left:170px;
+    
+}
+    .dots-item{
+        position: absolute;
+        left: 200px;
+        top: 150px;
+    }
+ 
+    .sub-title{
+        width:50%;
+        font-size:25px;
+        margin-top:20px;
+    }
+    .icons{
+        position: absolute; bottom: -147px; left:0px;
+        display: flex;
+        width: 500px;
+        justify-content: space-evenly;
+        background-color: rgba(209, 209, 209, 0.76);
+        padding: 15px 5px;
+    }
+    .hoe{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+        align-items: center;
+        margin-bottom: 100px;
+
+    }
+    
